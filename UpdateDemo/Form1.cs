@@ -18,7 +18,7 @@ namespace UpdateDemo
             {
                 System.Threading.Thread.Sleep(5000);
                 File.Delete(@".\ResourceTest.exe");
-                client.DownloadFile("yourhostinglink", @"ResourceTest.zip");
+                client.DownloadFile("INSERT LINK HERE", @"ResourceTest.zip");
                 string zipPath = @".\ResourceTest.zip";
                 string extractPath = @".\";
                 ZipFile.ExtractToDirectory(zipPath, extractPath);

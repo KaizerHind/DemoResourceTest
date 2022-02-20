@@ -15,7 +15,61 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_1C0540E27EF0433F8F1BD30CBB277288"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_242B58DB732F41CEADF14D9040562D98"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_340637AA07544609812968F59EFFDB40"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_37442F95FEB745379C5052B8E3290468"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_427C6DD9F49E4C068E0806A99BC3CE6C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_458CC0B9B4A547ACB1E870CD412AEF9B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_53AF6A9AED3743FF8F68BCAA5BAD7270"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_560D24269ABA45DFB3DB67F7905A2A32"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6013D414079C4637BCD637ED46D459EF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_73E46239E8824EB59138AB7F2F4A844E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -39,6 +93,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_AF003F15F5174883BD7373B2BF8C3F1C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B19A42B8142B2959617D5AB67E8B3CFE"
         "OwnerKey" = "8:_458CC0B9B4A547ACB1E870CD412AEF9B"
         "MsmSig" = "8:_UNDEFINED"
@@ -51,6 +111,24 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_C0D9F24413A74588993AC06C4A877200"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C9569B4AE68F406A9F86A663EF672F35"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CCEB4BE3D89A474587EE508F738B29CD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_D047DD70095468E9D617D2AD8E8BFEE8"
         "OwnerKey" = "8:_79680FD581A9488B91DE0F784AA85260"
         "MsmSig" = "8:_UNDEFINED"
@@ -58,7 +136,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B19A42B8142B2959617D5AB67E8B3CFE"
+        "OwnerKey" = "8:_458CC0B9B4A547ACB1E870CD412AEF9B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -82,7 +160,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_458CC0B9B4A547ACB1E870CD412AEF9B"
+        "OwnerKey" = "8:_B19A42B8142B2959617D5AB67E8B3CFE"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -103,6 +181,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -119,6 +213,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -148,6 +250,186 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1C0540E27EF0433F8F1BD30CBB277288"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten1\\arrow.png"
+            "TargetName" = "8:arrow.png"
+            "Tag" = "8:"
+            "Folder" = "8:_E7AC47F9EC6947139E6465FB1FEC9C0E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_242B58DB732F41CEADF14D9040562D98"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten2\\back2.png"
+            "TargetName" = "8:back2.png"
+            "Tag" = "8:"
+            "Folder" = "8:_3884B5E407DC445C83A7563C06C0C0D4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_340637AA07544609812968F59EFFDB40"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten2\\back6.png"
+            "TargetName" = "8:back6.png"
+            "Tag" = "8:"
+            "Folder" = "8:_3884B5E407DC445C83A7563C06C0C0D4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_37442F95FEB745379C5052B8E3290468"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten1\\radio_krose.png"
+            "TargetName" = "8:radio_krose.png"
+            "Tag" = "8:"
+            "Folder" = "8:_E7AC47F9EC6947139E6465FB1FEC9C0E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_427C6DD9F49E4C068E0806A99BC3CE6C"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten2\\back4.png"
+            "TargetName" = "8:back4.png"
+            "Tag" = "8:"
+            "Folder" = "8:_3884B5E407DC445C83A7563C06C0C0D4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_53AF6A9AED3743FF8F68BCAA5BAD7270"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten1\\radio_bounce.png"
+            "TargetName" = "8:radio_bounce.png"
+            "Tag" = "8:"
+            "Folder" = "8:_E7AC47F9EC6947139E6465FB1FEC9C0E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_560D24269ABA45DFB3DB67F7905A2A32"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten1\\radio_KDST.png"
+            "TargetName" = "8:radio_KDST.png"
+            "Tag" = "8:"
+            "Folder" = "8:_E7AC47F9EC6947139E6465FB1FEC9C0E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6013D414079C4637BCD637ED46D459EF"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten3\\back8_right.png"
+            "TargetName" = "8:back8_right.png"
+            "Tag" = "8:"
+            "Folder" = "8:_D0BBBE3A22AF4E88925C29A0ED1BCD33"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_73E46239E8824EB59138AB7F2F4A844E"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten1\\radio_csr.png"
+            "TargetName" = "8:radio_csr.png"
+            "Tag" = "8:"
+            "Folder" = "8:_E7AC47F9EC6947139E6465FB1FEC9C0E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_76F244B770F2EF20354CBE4601D8A9A7"
             {
             "AssemblyRegister" = "3:1"
@@ -179,6 +461,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AF003F15F5174883BD7373B2BF8C3F1C"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten2\\back3.png"
+            "TargetName" = "8:back3.png"
+            "Tag" = "8:"
+            "Folder" = "8:_3884B5E407DC445C83A7563C06C0C0D4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B19A42B8142B2959617D5AB67E8B3CFE"
             {
             "AssemblyRegister" = "3:1"
@@ -208,6 +510,66 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C0D9F24413A74588993AC06C4A877200"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten3\\back8_top.png"
+            "TargetName" = "8:back8_top.png"
+            "Tag" = "8:"
+            "Folder" = "8:_D0BBBE3A22AF4E88925C29A0ED1BCD33"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C9569B4AE68F406A9F86A663EF672F35"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten2\\back5.png"
+            "TargetName" = "8:back5.png"
+            "Tag" = "8:"
+            "Folder" = "8:_3884B5E407DC445C83A7563C06C0C0D4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CCEB4BE3D89A474587EE508F738B29CD"
+            {
+            "SourcePath" = "8:..\\ResourceTest\\bin\\Debug\\Sprites\\fronten1\\radio_kjah.png"
+            "TargetName" = "8:radio_kjah.png"
+            "Tag" = "8:"
+            "Folder" = "8:_E7AC47F9EC6947139E6465FB1FEC9C0E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D047DD70095468E9D617D2AD8E8BFEE8"
@@ -290,6 +652,50 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_644330DB3FCE485189E3B225AE4C8520"
+                    {
+                    "Name" = "8:Sprites"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_BCB3FB24945E4AD1A5FB12D42A95BD0E"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_3884B5E407DC445C83A7563C06C0C0D4"
+                            {
+                            "Name" = "8:fronten2"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_4122BA2B68A9452C8E402FBA91C92CA4"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_D0BBBE3A22AF4E88925C29A0ED1BCD33"
+                            {
+                            "Name" = "8:fronten3"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_47264C47656B4C53A3F5EA0B1D1634B4"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_E7AC47F9EC6947139E6465FB1FEC9C0E"
+                            {
+                            "Name" = "8:fronten1"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_49AAF87149D9410C985D28908252C4B4"
+                                "Folders"
+                                {
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -309,7 +715,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SetupDemo"
         "ProductCode" = "8:{F4CA8664-A315-426A-980F-D88AFA0DDC28}"
-        "PackageCode" = "8:{509329F5-A720-4D1E-8464-6E7064FE186C}"
+        "PackageCode" = "8:{4FD275D8-5412-42B1-9F30-4E10656D1D9F}"
         "UpgradeCode" = "8:{26E3B94E-C055-475E-AAB2-D0AE588DBB11}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"

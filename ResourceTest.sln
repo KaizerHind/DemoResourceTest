@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceTest", "ResourceTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateDemo", "UpdateDemo\UpdateDemo.csproj", "{64DCBB24-6A97-4C8D-BBE9-7450C2A98E53}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupDemo", "SetupDemo\SetupDemo.vdproj", "{DF97EB3D-A4F1-4844-89B3-BBBBDB44A9BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{64DCBB24-6A97-4C8D-BBE9-7450C2A98E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64DCBB24-6A97-4C8D-BBE9-7450C2A98E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64DCBB24-6A97-4C8D-BBE9-7450C2A98E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF97EB3D-A4F1-4844-89B3-BBBBDB44A9BD}.Debug|Any CPU.ActiveCfg = Debug
+		{DF97EB3D-A4F1-4844-89B3-BBBBDB44A9BD}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

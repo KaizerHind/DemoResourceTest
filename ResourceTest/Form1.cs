@@ -15,7 +15,8 @@ namespace ResourceTest
             listBox1.Items.AddRange(new object[] {
                 "1.- fronten1",
                 "2.- fronten2",
-                "3.- fronten3"
+                "3.- fronten3",
+                "4.- fronten3"
             });
 
             WebClient webClient = new WebClient();
@@ -23,7 +24,7 @@ namespace ResourceTest
             try
             {
                 //<<<<<<< patch-2
-                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.1"))
+                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.2"))
                 //=======
                 //if (!webClient.DownloadString("https://github.com/KaizerHind/DemoResourceTest/releases/tag/1.0").Contains("1.1"))
                 //>>>>>>> master

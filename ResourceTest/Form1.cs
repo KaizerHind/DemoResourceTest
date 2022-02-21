@@ -18,26 +18,31 @@ namespace ResourceTest
                 "3.- fronten3",
                 "4.- fronten3"
             });
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             WebClient webClient = new WebClient();
 
             try
             {
                 if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.2"))
                 {
-                    if (MessageBox.Show("Existe una nueva actualizacion! ¿Quieres descargar esta?", "ResourceTest", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    //if (MessageBox.Show("Existe una nueva actualizacion! ¿Quieres descargar esta?", "ResourceTest", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     using (var client = new WebClient())
                     {
+                        MessageBox.Show("Existe una nueva actualizacion! Espera que se actuaice.");
                         Process.Start("UpdateDemo.exe");
+                        Close();
                     }
                 }
             }
-            catch{}
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+            catch { }
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)

@@ -29,7 +29,7 @@ namespace UpdateDemo
             catch
             {
                 Process.Start("ResourceTest.exe");
-                Application.Exit();
+                Close();
             }
         }
     }

@@ -10,7 +10,9 @@ namespace UpdateDemo
     {
         public Form1()
         {
-            //InitializeComponent();
+            InitializeComponent();
+            FormBorderStyle = FormBorderStyle.None;
+            label1.Text = "Los archivos han sido actualizados de manera exitosa.\nGracias por usar ResourceTest.";
             WebClient webClient = new WebClient();
             var client = new WebClient();
 

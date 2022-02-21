@@ -179,9 +179,10 @@ namespace ResourceTest
             // 
             this.Version.Location = new System.Drawing.Point(44, 372);
             this.Version.Name = "Version";
+            this.Version.ReadOnly = true;
             this.Version.Size = new System.Drawing.Size(100, 20);
             this.Version.TabIndex = 15;
-            this.Version.Text = "1.1";
+            this.Version.Text = "1.2";
             this.Version.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button2

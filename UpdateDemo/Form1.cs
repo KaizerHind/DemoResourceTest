@@ -25,7 +25,6 @@ namespace UpdateDemo
                 File.Delete(@".\ResourceTest.zip");
                 Process.Start(@".\ResourceTest.exe");
                 Application.Exit();
-                this.Close();
             }
             catch
             {

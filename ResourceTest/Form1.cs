@@ -31,7 +31,7 @@ namespace ResourceTest
 
             try
             {
-                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.1"))
+                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.2"))
                 {
                     //if (MessageBox.Show("Existe una nueva actualizacion! ¿Quieres descargar esta?", "ResourceTest", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     using (var client = new WebClient())

@@ -33,7 +33,6 @@ namespace ResourceTest
                     using (var client = new WebClient())
                     {
                         Process.Start("UpdateDemo.exe");
-                                Application.Exit();
                     }
                 }
             }

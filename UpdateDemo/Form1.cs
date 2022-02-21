@@ -24,7 +24,6 @@ namespace UpdateDemo
                 ZipFile.ExtractToDirectory(zipPath, extractPath);
                 File.Delete(@".\ResourceTest.zip");
                 Process.Start(@".\ResourceTest.exe");
-                System.Windows.Forms.Application.ExitThread();
             }
             catch
             {

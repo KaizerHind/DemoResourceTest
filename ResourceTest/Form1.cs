@@ -23,24 +23,17 @@ namespace ResourceTest
 
             try
             {
-                //<<<<<<< patch-2
-                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.2"))
-                //=======
-                //if (!webClient.DownloadString("https://github.com/KaizerHind/DemoResourceTest/releases/tag/1.1").Contains("1.1"))
-                //>>>>>>> master
+                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.3"))
                 {
                     if (MessageBox.Show("Existe una nueva actualizacion! ¿Quieres descargar esta?", "ResourceTest", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                         using (var client = new WebClient())
                         {
                             Process.Start("UpdateDemo.exe");
-                            Application.Exit();
+                            System.Windows.Forms.Application.ExitThread();
                         }
                 }
             }
-            catch
-            {
-                Application.Exit();
-            }
+            catch{}
         }
 
         private void button1_Click(object sender, EventArgs e)

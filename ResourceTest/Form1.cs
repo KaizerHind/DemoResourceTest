@@ -16,7 +16,7 @@ namespace ResourceTest
                 "1.- fronten1",
                 "2.- fronten2",
                 "3.- fronten3",
-                "4.- fronten3"
+                "4.- fronten4"
             });
         }
 
@@ -31,7 +31,7 @@ namespace ResourceTest
 
             try
             {
-                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.5"))
+                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.1"))
                 {
                     //if (MessageBox.Show("Existe una nueva actualizacion! ¿Quieres descargar esta?", "ResourceTest", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     using (var client = new WebClient())

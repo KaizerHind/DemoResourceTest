@@ -181,7 +181,7 @@ namespace ResourceTest
             this.Version.Name = "Version";
             this.Version.Size = new System.Drawing.Size(100, 20);
             this.Version.TabIndex = 15;
-            this.Version.Text = "1.3";
+            this.Version.Text = "1.1";
             this.Version.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button2

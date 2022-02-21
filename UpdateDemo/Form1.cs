@@ -10,7 +10,7 @@ namespace UpdateDemo
     {
         public Form1()
         {
-            InitializeComponent();
+            //InitializeComponent();
             WebClient webClient = new WebClient();
             var client = new WebClient();
 

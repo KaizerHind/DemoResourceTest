@@ -33,10 +33,9 @@ namespace ResourceTest
             {
                 if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.3"))
                 {
-                    //if (MessageBox.Show("Existe una nueva actualizacion! ¿Quieres descargar esta?", "ResourceTest", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     using (var client = new WebClient())
                     {
-                        MessageBox.Show("Existe una nueva actualizacion! Espera que se actualice.");
+                        MessageBox.Show("Esta opcion debe usarse unicamente cuando sepas que hay una Actualizacion.\nEl Programa se encarga de descargar los recursos y modificaciones hechas en la herramienta.");
                         Process.Start("UpdateDemo.exe");
                         Close();
                     }

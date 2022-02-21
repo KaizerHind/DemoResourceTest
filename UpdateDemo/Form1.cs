@@ -24,11 +24,18 @@ namespace UpdateDemo
                 ZipFile.ExtractToDirectory(zipPath, extractPath);
                 File.Delete(@".\ResourceTest.zip");
                 Process.Start(@".\ResourceTest.exe");
+                Application.Exit();
+                this.Close();
             }
             catch
             {
                 Process.Start("ResourceTest.exe");
             }
+        }
+
+        private void Form1_Load(object sender, System.EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

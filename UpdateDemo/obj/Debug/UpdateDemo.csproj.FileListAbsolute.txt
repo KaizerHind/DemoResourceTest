@@ -1,0 +1,10 @@
+C:\Users\Sebastian.KaizerHind\Documents\GitHub\DemoResourceTest\UpdateDemo\bin\Debug\UpdateDemo.exe.config
+C:\Users\Sebastian.KaizerHind\Documents\GitHub\DemoResourceTest\UpdateDemo\bin\Debug\UpdateDemo.exe
+C:\Users\Sebastian.KaizerHind\Documents\GitHub\DemoResourceTest\UpdateDemo\bin\Debug\UpdateDemo.pdb
+C:\Users\Sebastian.KaizerHind\Documents\GitHub\DemoResourceTest\UpdateDemo\obj\Debug\UpdateDemo.csproj.AssemblyReference.cache
+C:\Users\Sebastian.KaizerHind\Documents\GitHub\DemoResourceTest\UpdateDemo\obj\Debug\UpdateDemo.Form1.resources
+C:\Users\Sebastian.KaizerHind\Documents\GitHub\DemoResourceTest\UpdateDemo\obj\Debug\UpdateDemo.Properties.Resources.resources
+C:\Users\Sebastian.KaizerHind\Documents\GitHub\DemoResourceTest\UpdateDemo\obj\Debug\UpdateDemo.csproj.GenerateResource.cache
+C:\Users\Sebastian.KaizerHind\Documents\GitHub\DemoResourceTest\UpdateDemo\obj\Debug\UpdateDemo.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian.KaizerHind\Documents\GitHub\DemoResourceTest\UpdateDemo\obj\Debug\UpdateDemo.exe
+C:\Users\Sebastian.KaizerHind\Documents\GitHub\DemoResourceTest\UpdateDemo\obj\Debug\UpdateDemo.pdb

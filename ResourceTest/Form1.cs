@@ -26,7 +26,7 @@ namespace ResourceTest
                 //<<<<<<< patch-2
                 if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.2"))
                 //=======
-                if (!webClient.DownloadString("https://github.com/KaizerHind/DemoResourceTest/releases/tag/1.2").Contains("1.2"))
+                if (!webClient.DownloadString("https://github.com/KaizerHind/DemoResourceTest/releases/tag/1.1").Contains("1.1"))
                 //>>>>>>> master
                 {
                     if (MessageBox.Show("Existe una nueva actualizacion! ¿Quieres descargar esta?", "ResourceTest", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)

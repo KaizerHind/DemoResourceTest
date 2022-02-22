@@ -59,7 +59,6 @@ namespace UpdateDemo
             this.ClientSize = new System.Drawing.Size(331, 203);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Enabled = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

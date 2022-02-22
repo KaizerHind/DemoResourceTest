@@ -10,8 +10,11 @@ namespace UpdateDemo
     {
         public Form1()
         {
-            InitializeComponent();
+            //InitializeComponent();
+        }
 
+        private void Form1_Load(object sender, System.EventArgs e)
+        {
             WebClient webClient = new WebClient();
             var client = new WebClient();
 
@@ -31,6 +34,5 @@ namespace UpdateDemo
                 Process.Start("ResourceTest.exe");
             }
         }
-
     }
 }

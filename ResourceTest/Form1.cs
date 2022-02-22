@@ -31,12 +31,13 @@ namespace ResourceTest
 
             try
             {
-                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.4"))
+                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.5"))
                 {
                     using (var client = new WebClient())
                     {
                         MessageBox.Show("Esta opcion debe usarse unicamente cuando sepas que hay una Actualizacion.\nEl Programa se encarga de descargar los recursos y modificaciones hechas en la herramienta.");
                         Process.Start("UpdateDemo.exe");
+
                         Close();
                     }
                 }

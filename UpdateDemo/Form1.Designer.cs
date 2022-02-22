@@ -37,6 +37,7 @@ namespace UpdateDemo
             this.ClientSize = new System.Drawing.Size(457, 261);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

@@ -31,7 +31,7 @@ namespace ResourceTest
 
             try
             {
-                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.4"))
+                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.1"))
                 {
                     using (var client = new WebClient())
                     {

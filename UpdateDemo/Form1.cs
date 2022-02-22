@@ -32,16 +32,22 @@ namespace UpdateDemo
             }
         }
 
+        private void Form1_Load(object sender, System.EventArgs e)
+        {
+            label1.Text = "Los archivos han sido actualizados de manera exitosa.\nGracias por usar ResourceTest.";
+            FormBorderStyle = FormBorderStyle.None;
+        }
+
+        private void label1_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, System.EventArgs e)
         {
             Application.Exit();
         }
 
-        private void Form1_Load(object sender, System.EventArgs e)
-        {
-            InitializeComponent();
-            label1.Text = "Los archivos han sido actualizados de manera exitosa.\nGracias por usar ResourceTest.";
-            FormBorderStyle = FormBorderStyle.None;
-        }
+
     }
 }

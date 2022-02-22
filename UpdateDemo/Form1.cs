@@ -11,8 +11,9 @@ namespace UpdateDemo
         public Form1()
         {
             InitializeComponent();
-            FormBorderStyle = FormBorderStyle.None;
             label1.Text = "Los archivos han sido actualizados de manera exitosa.\nGracias por usar ResourceTest.";
+            FormBorderStyle = FormBorderStyle.None;
+
             WebClient webClient = new WebClient();
             var client = new WebClient();
 
@@ -32,5 +33,11 @@ namespace UpdateDemo
                 Process.Start("ResourceTest.exe");
             }
         }
+
+        private void button1_Click(object sender, System.EventArgs e)
+        {
+            Application.Exit();
+        }
+
     }
 }

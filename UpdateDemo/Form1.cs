@@ -11,8 +11,6 @@ namespace UpdateDemo
         public Form1()
         {
             InitializeComponent();
-            label1.Text = "Los archivos han sido actualizados de manera exitosa.\nGracias por usar ResourceTest.";
-            FormBorderStyle = FormBorderStyle.None;
 
             WebClient webClient = new WebClient();
             var client = new WebClient();
@@ -39,5 +37,11 @@ namespace UpdateDemo
             Application.Exit();
         }
 
+        private void Form1_Load(object sender, System.EventArgs e)
+        {
+            InitializeComponent();
+            label1.Text = "Los archivos han sido actualizados de manera exitosa.\nGracias por usar ResourceTest.";
+            FormBorderStyle = FormBorderStyle.None;
+        }
     }
 }

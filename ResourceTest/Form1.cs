@@ -19,22 +19,7 @@ namespace ResourceTest
                 "4.- fronten4"
             });
 
-            WebClient webClient = new WebClient();
 
-            try
-            {
-                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.3"))
-                {
-                    using (var client = new WebClient())
-                    {
-                        MessageBox.Show("Se a encontrado una nueva actualizacion, espera a que esta se descargue.");
-                        Process.Start("UpdateDemo.exe");
-
-                        Close();
-                    }
-                }
-            }
-            catch { }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -44,11 +29,11 @@ namespace ResourceTest
 
         private void button2_Click(object sender, EventArgs e)
         {
-            /*WebClient webClient = new WebClient();
+            WebClient webClient = new WebClient();
 
             try
             {
-                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.5"))
+                if (!webClient.DownloadString("https://raw.githubusercontent.com/KaizerHind/DemoResourceTest/master/Version.txt").Contains("1.1"))
                 {
                     using (var client = new WebClient())
                     {
@@ -59,7 +44,7 @@ namespace ResourceTest
                     }
                 }
             }
-            catch { }*/
+            catch { }
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)

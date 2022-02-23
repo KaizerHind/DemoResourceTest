@@ -76,7 +76,7 @@
         "Entry"
         {
         "MsmKey" = "8:_76F244B770F2EF20354CBE4601D8A9A7"
-        "OwnerKey" = "8:_79680FD581A9488B91DE0F784AA85260"
+        "OwnerKey" = "8:_8102CAB9EB0A44C9A712425D6D706042"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -87,7 +87,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_79680FD581A9488B91DE0F784AA85260"
+        "MsmKey" = "8:_8102CAB9EB0A44C9A712425D6D706042"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -106,7 +106,7 @@
         "Entry"
         {
         "MsmKey" = "8:_B19A42B8142B2959617D5AB67E8B3CFE"
-        "OwnerKey" = "8:_79680FD581A9488B91DE0F784AA85260"
+        "OwnerKey" = "8:_8102CAB9EB0A44C9A712425D6D706042"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -130,7 +130,7 @@
         "Entry"
         {
         "MsmKey" = "8:_D047DD70095468E9D617D2AD8E8BFEE8"
-        "OwnerKey" = "8:_79680FD581A9488B91DE0F784AA85260"
+        "OwnerKey" = "8:_8102CAB9EB0A44C9A712425D6D706042"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -142,7 +142,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_79680FD581A9488B91DE0F784AA85260"
+        "OwnerKey" = "8:_8102CAB9EB0A44C9A712425D6D706042"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1298,7 +1298,7 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_79680FD581A9488B91DE0F784AA85260"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8102CAB9EB0A44C9A712425D6D706042"
             {
             "SourcePath" = "8:..\\UpdateDemo\\obj\\Debug\\UpdateDemo.exe"
             "TargetName" = "8:"

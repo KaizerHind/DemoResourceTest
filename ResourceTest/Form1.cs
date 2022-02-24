@@ -116,5 +116,11 @@ namespace ResourceTest
             PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            tForm Component1 = new tForm();
+            Component1.Show();
+        }
     }
 }
